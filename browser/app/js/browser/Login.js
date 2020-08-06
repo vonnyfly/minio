@@ -28,8 +28,8 @@ export class Login extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      accessKey: "",
-      secretKey: "",
+      accessKey: "root",
+      secretKey: "12345678",
       discoveryDoc: {},
       clientId: ""
     }
